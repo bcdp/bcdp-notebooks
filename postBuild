@@ -1,0 +1,5 @@
+#!/bin/bash
+set -ex
+
+wget https://rcmes.jpl.nasa.gov/RCMES_Turtorial_data/CORDEX-Africa_data.tar.gz
+tar xvf CORDEX-Africa_data.tar.gz
