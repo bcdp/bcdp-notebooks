@@ -3,3 +3,5 @@ set -ex
 
 wget rcmes.jpl.nasa.gov/RCMES_Turtorial_data/CORDEX-Africa_data.tar.gz
 tar xvf CORDEX-Africa_data.tar.gz
+rm CORDEX-Africa_data.tar.gz
+rm CORDEX-Africa_data/*UQAM*
